@@ -17,3 +17,5 @@ Git es una herramienta de line a de comando y github proporciona una interfaz gr
 La preparación o git add es básicamente darle a conocer al sistema cuales archivos modificados se les puede tomar una foto, por otra parte la toma de foto o el commit es básicamente guardar los nuevos cambios en los archivos que fueron anteriormente agregados o que estaban preparados para la foto. 
 
 5)Para que se utilizan las ramas en Git?
+
+Las ramas se usan para poder separar el proyecto en sus diferentes versiones y a su ves uno puede utilizar estas versiones para modificarlas y seguir trabajando desde ellas, lo cual permite que si uno desea pueda combinar diferentes versiones.
