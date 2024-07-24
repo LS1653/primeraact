@@ -14,4 +14,6 @@ Git es una herramienta de line a de comando y github proporciona una interfaz gr
 
 4)Área de trabajo, área de preparación (ubícate para la foto) y directorio git (toma de la foto). Podridas explicar en que consiste?
 
+La preparación o git add es básicamente darle a conocer al sistema cuales archivos modificados se les puede tomar una foto, por otra parte la toma de foto o el commit es básicamente guardar los nuevos cambios en los archivos que fueron anteriormente agregados o que estaban preparados para la foto. 
+
 5)Para que se utilizan las ramas en Git?
