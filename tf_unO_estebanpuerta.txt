@@ -1,0 +1,11 @@
+1)Que es un sistema de control de versiones?
+
+Es un sistema que permite tener el registro de todas las modificaciones que has hecho a algún archivo, documento, etc, esto mismo ayuda a evitar perdidas de información y a su vez permite poder que uno se devuelva a las versiones anteriores de algún archivo antes de su ultima modificación, este mismo si se utiliza de forma remota facilita en gran medida el trabajo en equipo debido a que este organiza la información que se envía y renueva gracias a la identificación de quien hizo el cambio y que fue lo que cambio.
+ 
+2)Que diferencia hay entre repositorio local y remoto?
+
+3)Mencione tres diferencias entre Git y GitHub.
+
+4)Área de trabajo, área de preparación (ubícate para la foto) y directorio git (toma de la foto). Podridas explicar en que consiste?
+
+5)Para que se utilizan las ramas en Git?
