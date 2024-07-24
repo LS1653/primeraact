@@ -4,7 +4,13 @@ Es un sistema que permite tener el registro de todas las modificaciones que has 
  
 2)Que diferencia hay entre repositorio local y remoto?
 
+El repositorio local es el computador en el que yo manejo los archivos por lo que solo funciona en ese computador, el remoto lo que permite es que cualquiera que forme parte de los modificadores puede hacer cambios en el repositorio desde cualquier lugar ósea desde otros computadores, ósea básicamente el local se limita a un solo equipo y el remoto puede usarce desde cualquier equipo.
+
 3)Mencione tres diferencias entre Git y GitHub.
+
+Uno es un sofware y el otro es un servicio.
+Git se instala en el sistema y GitHub esta en la web.
+Git es una herramienta de line a de comando y github proporciona una interfaz grafica.
 
 4)Área de trabajo, área de preparación (ubícate para la foto) y directorio git (toma de la foto). Podridas explicar en que consiste?
 
