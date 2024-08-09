@@ -63,3 +63,14 @@ void loop()
 {
     Funcion();
 }
+
+---------------------------------------------------------------
+
+¿Cuáles son los estados del programa?
+Los estados del programa en este caso son tres PRIMERO, CAMBIO, DOBLECAMBIO, uno para cada mensaje que se tenia que imprimir en el Serial.
+
+¿Cuáles son los eventos?
+Los eventos de este programa son cada uno de los condicionales if que contienen los mensajes que se deben imprimir en un segundo exacto.
+
+¿Cuáles son las acciones?
+Las accines del programa son en principal medida los cambios de estado que se hacen durante el programa, tambien los print de los mensajes y las funciones como lo son el Serial.begin(9600) y millis().
