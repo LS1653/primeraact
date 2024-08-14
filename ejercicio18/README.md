@@ -1,4 +1,3 @@
-// Capacidad del buffer de recepción
 #define BUFFER_SIZE 32
 
 void task1()
@@ -35,6 +34,10 @@ void task1()
             // Lee el próximo byte del puerto serial y lo almacena en el buffer
             rxBuffer[dataCounter] = Serial.read();
             dataCounter++;
+            Serial.print("Hay ");
+            Serial.print(dataCounter);
+            Serial.print(" datos en el buffer");
+            Serial.print('\n');
         }
 
         // Si el buffer se llena, se puede procesar o hacer algo con los datos aquí
@@ -50,6 +53,7 @@ void task1()
             // Reiniciar el contador si es necesario o continuar con el procesamiento
             dataCounter = 0; // Para reutilizar el buffer, reiniciamos el contador
         }
+        
         break;
     }
 
