@@ -85,3 +85,7 @@ void loop()
 {
     tarea1();
 }
+
+---------------------------------------------------
+& -> dirección 
+* -> información/contenido 
