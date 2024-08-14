@@ -65,6 +65,8 @@ void loop()
     task1();
 }
 
+-----------------------------------------------------------------------
+
 Qué hace, cómo funciona y qué necesitas para probarlo.
 a) El programa usa una máquina de estados que espera recibir datos a través del puerto serial. Una vez que se reciben 5 bytes, se procesan y se calcula una suma basada en los valores recibidos. El resultado de esta suma se envía de vuelta por el puerto serial.
 
