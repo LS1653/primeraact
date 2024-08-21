@@ -4,6 +4,7 @@ En esta configuración inicial el sistema inicia en modo de configuración, most
 
 La misión del participante de la experiencia es salvar el mundo, por lo cual debe descifrar con pistas e ingresar el código de acceso, para lo cual  se envía por el puerto serial la secuencia 'C' seguido de la clave numérica (por ejemplo, 'C1234'). Si ingresas la clave correcta debe aparecer el mensaje “SALVASTE AL MUNDO”, sino la cuenta regresiva debe continuar hasta el fatal desenlace.
 
+```
 enum class SystemState {
     CONFIG,
     COUNTDOWN,
@@ -111,3 +112,4 @@ void handleRadiation() {
     Serial.println("Volviendo al modo CONFIG. Establezca el tiempo de apertura de la cámara.");
     countdownTime = defaultTime; // Reiniciar tiempo de configuración
 }
+```
