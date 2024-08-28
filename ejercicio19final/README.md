@@ -15,7 +15,7 @@ enum class SystemState {
 SystemState currentState = SystemState::CONFIG;
 const int defaultTime = 5;
 const int maxTime = 40;
-const int minTime = 1;
+const int minTime = 5;
 int countdownTime = defaultTime;
 const String accessCode = "1234"; // Código de acceso correcto
 String enteredCode = "";
