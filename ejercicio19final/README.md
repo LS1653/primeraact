@@ -49,7 +49,10 @@ void loop() {
             break;
         case SystemState::SAFETY:
             Serial.println("SALVASTE AL MUNDO");
-            while (true); // Detener el programa
+            delay(2000); // Esperar 2 segundos
+            currentState = SystemState::CONFIG;
+            Serial.println("Volviendo al modo CONFIG. Establezca el tiempo de apertura de la cámara.");
+            countdownTime = defaultTime; // Reiniciar tiempo de configuración
             break;
     }
 }
